@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/song_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#263238
+"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/song_ranking"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#ECEFF1"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="4"
+        android:maxLines="10"
+        android:textColor="#ECEFF1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/song_length"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#ECEFF1"
+        android:textSize="16sp" />
+
+</LinearLayout>
